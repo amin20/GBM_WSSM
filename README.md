@@ -11,9 +11,9 @@ Glioblastoma Pathology Images Semantic Segmentation using DCNN
 
 # Steps to reproduce the results of the paper
 
-1. Download weights (GBM_WSSM.h5) trained on IVY dataset from the link and place it in the file "GBM_WSSM_Prediction.py". See the link [GBM_WSSM.h5](https://drive.google.com/file/d/1gMPA9R0zToIzgQdA5Gxos481ucxkDtbS/view?usp=sharing)
+1. Download weights (GBM_WSSM.h5) trained on IVY dataset from the link and place it in the file "[GBM_WSSM_Prediction.py](https://github.com/amin20/GBM_WSSM/tree/master/Codes)". See the link [GBM_WSSM.h5](https://drive.google.com/file/d/1gMPA9R0zToIzgQdA5Gxos481ucxkDtbS/view?usp=sharing)
 
-2. Download and setup the "Distributed Solar Photovoltaic Array Location and Extent Data Set for Remote Sensing Object Identification" dataset, see the corresponding [subdirectory](data/photovoltaic_array_location_dataset).
+2. If you want to train the model from scratch, download raw images and corressponding masks from the link . Also, you can save your time and train the model by using the and training and validating numpy arrays we prepared. Download the arrays from the link and put them in the main code 
 3. Download the pre-trained InceptionV4 checkpoint, see the corresponding [subdirectory](models/inception).
 4. Train PolyCNN and run inference on the test set, see the corresponding [subdirectory](code/polycnn).
 5. Train the U-Net of unet_and_vectorization and run inference on the test set, see the corresponding  [subdirectory](code/unet_and_vectorization).
