@@ -109,3 +109,9 @@ Arguments:
 3. All GBM tumours were visually checked by a pathologist and whole slide images (WSIs) were extracted for each GBM. They are acceible via the [link].
 
 4. Resized form (1024x1024) of the GBM WSIs are available in this [link].  
+
+-----------------------------------------------
+
+# Notes
+
+DCNN Network Architecture inspired by the [Article](https://arxiv.org/abs/1611.09326) 
