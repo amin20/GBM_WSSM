@@ -110,7 +110,7 @@ Arguments:
 
 4. Resized form (1024x1024) of the GBM WSIs are available in this [link].  
 
------------------------------------------------
+# -----------------------------------------------
 
 # Notes
 
