@@ -110,6 +110,10 @@ Arguments:
 
 4. Resized form (1024x1024) of the GBM WSIs are available in this [link].  
 
+5. Corresponding produced masks (segmented masks) by applying GBM_WSSM on GBM WSIs are accessible in the [link]. 
+
+6. We applyed the [code] to quantify regions in segmented masks obtained from previous step. The quantified values are located [here].
+
 # -----------------------------------------------
 
 # Notes
