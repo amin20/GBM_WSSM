@@ -21,10 +21,11 @@ Glioblastoma Pathology Images Semantic Segmentation using DCNN
 1. Download weights (GBM_WSSM.h5) trained on IVY dataset from the link [GBM_WSSM.h5](https://drive.google.com/file/d/1gMPA9R0zToIzgQdA5Gxos481ucxkDtbS/view?usp=sharing) and place it in its appropriate address in the file "[GBM_WSSM_Prediction.py](https://github.com/amin20/GBM_WSSM/tree/master/Codes)".
 
 Arguments:
+
+    
     GBM_Parser.add_argument("--Image_Info",
                             help = "This part includes some initial information about the image you want to create mask for: shape, number of classes",
                             default = [(1024, 1024, 3), 8])
-    
     GBM_Parser.add_argument("--GBM_Test_Images_Path",
                             help = "The path of 48 GBM images in testing phase",
                             default = ".../.../Test/Images/")
@@ -46,6 +47,56 @@ Arguments:
 2. Download GBM test images from this [address](https://github.com/amin20/GBM_WSSM/tree/master/GBM_Test_Images) or use your own GBM test image. For image preprocessing of your test file please refer to the original article. Then, run the file "[GBM_WSSM_Prediction.py](https://github.com/amin20/GBM_WSSM/tree/master/Codes)". you can compare the results (predicted masks) with the original ground truth, check this [link](https://github.com/amin20/GBM_WSSM/tree/master/GBM_Test_Ground_Truth).
 
 3. If you want to train the model from scratch, download raw images and corressponding masks from the link . Also, you can save your time and train the model by using training and validating numpy arrays we prepared. For both ways, first download the images or arrays from and put them in the [main_code](https://github.com/amin20/GBM_WSSM/blob/master/Codes/0_main.py).
+
+Arguments:
+
+    GBM_Parser.add_argument("--GBM_Images_Path",
+                            help = "The path of the original GBM images",
+                            default = ".../.../")
+    
+    GBM_Parser.add_argument("--GBM_GTs_Path",
+                            help = "The path of the original GBM Ground Truth (GTs)",
+                            default = ".../.../")
+    
+    GBM_Parser.add_argument("--GBM_Regions_and_RGBs_List",
+                            help = "A text file which defines all the regions (classes) inside GBM GTs along with their RGB vlaues i.e. Mask_Labels.txt",
+                            default = ".../.../")
+    
+    GBM_Parser.add_argument("--Encode_GBM_GTs",
+                            help = "The default value is False. If you change it to True, all the GTs images will be mapped (RGBs will be encoded to integers) using Mask_Integer_Encoding()",
+                            default = True)
+    
+    GBM_Parser.add_argument("--Model_Outputs_Path",
+                            help = "In this path, all the model outputs will be saved (including: data arrays, curves, weights.hdf5, ...",
+                            default = ".../.../")
+    
+    GBM_Parser.add_argument("--Log_Files_Path",
+                            help = "This path will save callbacks outputs: checkpoint files (*.h5 or *.hdf5 formats), TensorBoard records, and events from CSVLogger (*.csv)",
+                            default = ".../.../")
+    
+    GBM_Parser.add_argument("--Hyper_parameters",
+                            help = "A list that contains all necessary hyperparameters: Learning_Rate, Epochs, Patience, LR_Decay, Train_Percentage, Batch_Size, and class no., respectively",
+                            default = [1e-3, 55, 50, 5e-5, 85, 1, 8])
+    
+    GBM_Parser.add_argument("--GBM_Image_Size",
+                            help = "The new size of GBM images. The size can be used if you want to use Resize function. Default is (1024, 1024)",
+                            default = (1024, 1024))
+   
+    GBM_Parser.add_argument("--Image_Size_Boolean",
+                            help = "Image_Size_Boolean is an argument whcih is being used whenever we need to resize the originl images or GTs",
+                            default = True)
+    
+    GBM_Parser.add_argument("--Cropped_Size",
+                            help = "Crop_Size is used as a predefined size for crop extraction in Augmentaion procedure. Default is (224, 224)",
+                            default = (224,224))
+    
+    GBM_Parser.add_argument("--Resume",
+                            help = "The default value is False, If you change it to True, the training process will be resumed provided you saved the weights", 
+                            default = False)
+    
+    GBM_Parser.add_argument("--Start_from_Scratch",
+                            help = "If you are going to start from scratch i.e. make up training, and validating sets, and encode all masks, and train the model, apply --> TRUE. Otherwise, if you apply False, just predefined arrays are loaded from disk and the model will be trained on", 
+                            default = False)
 
 # -----------------------------------------------
 
