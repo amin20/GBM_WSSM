@@ -20,4 +20,9 @@ Glioblastoma Pathology Images Semantic Segmentation using DCNN
 # Steps to generalize GBM_WSSM on TCGA dataset
 
 1. Original Images (.SVS format) for all types of brain tumours are accessible through the link. 
-2. We extracted only GBM tumour types using the [GBM Log File] and [GBM Finder Code] GBM images (.SVS format) are accessible through the link. 
+
+2. We extracted only GBM tumour types using the [GBM Log File] and [GBM Finder Code] GBM images (.SVS format) are accessible through the link.
+
+3. All GBM tumours were visually checked by a pathologist and whole slide images (WSIs) were extracted for each GBM. They are acceible via the [link].
+
+4. Resized form (1024x1024) of the GBM WSIs are available in this [link].  
