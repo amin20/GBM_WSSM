@@ -18,3 +18,4 @@ Glioblastoma Pathology Images Semantic Segmentation using DCNN
 4. Train PolyCNN and run inference on the test set, see the corresponding [subdirectory](code/polycnn).
 5. Train the U-Net of unet_and_vectorization and run inference on the test set, see the corresponding  [subdirectory](code/unet_and_vectorization).
 5. Compare the two methods, see the corresponding [subdirectory](code/evaluation).
+[TCGA](https://mymailunisaedu-my.sharepoint.com/:f:/g/personal/zaday001_mymail_unisa_edu_au/EtXlX9aqcdRLtjjks5_MYGYBISwXc7NPXi0jhgsYOPfPAw?e=ZWMCop)
