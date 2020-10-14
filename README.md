@@ -1,5 +1,7 @@
 # GBM_WSSM
-Glioblastoma Whole-Slide Image Semantic Segmentation using Deep Convolutional Neural Network
+
+Model Name: GBM_WSSM
+"Glioblastoma Whole-Slide Image Semantic Segmentation Model using Deep Convolutional Neural Network"
 
 # -----------------------------------------------
 
@@ -18,7 +20,7 @@ Glioblastoma Whole-Slide Image Semantic Segmentation using Deep Convolutional Ne
 
 # Steps to reproduce the results of the paper
 
-1. Download weights (GBM_WSSM.h5) trained on IVY dataset from the link [GBM_WSSM.h5](https://drive.google.com/file/d/1gMPA9R0zToIzgQdA5Gxos481ucxkDtbS/view?usp=sharing) and place it in its appropriate address in the file "[GBM_WSSM_Prediction.py](https://github.com/amin20/GBM_WSSM/tree/master/Codes)".
+1. Download the optimum weights of "[GBM_WSSM](https://github.com/amin20/GBM_WSSM/edit/master/README.md)" trained on IVY-GAP dataset from the link "[GBM_WSSM.h5](https://1drv.ms/u/s!AvQTr_2MktoOgQT_ZMbotiquQW0L?e=ehFJah)" and place it in its appropriate address in the file "[GBM_WSSM_Prediction.py](https://github.com/amin20/GBM_WSSM/tree/master/Codes)".
 
 Arguments:
 
