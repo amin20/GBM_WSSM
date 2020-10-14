@@ -1,7 +1,7 @@
 # GBM_WSSM
 
-Model Name: GBM_WSSM
-"Glioblastoma Whole-Slide Image Semantic Segmentation Model using Deep Convolutional Neural Network"
+- Model Name: GBM_WSSM
+- "Glioblastoma Whole-Slide Image Semantic Segmentation Model using Deep Convolutional Neural Network"
 
 # -----------------------------------------------
 
