@@ -104,17 +104,17 @@ Arguments:
 
 # Steps to generalize GBM_WSSM on TCGA dataset
 
-1. Original Images (.SVS format) for all types of brain tumours are accessible through the link. 
+1. Original Images (.SVS format) for all types of brain tumours are accessible via the [link](https://1drv.ms/u/s!AvQTr_2MktoO3XuxwYyr02qhz9cL?e=CMzFqx). 
 
-2. We extracted only GBM tumour types using the [GBM Log File] and [GBM Finder Code] GBM images (.SVS format) are accessible through the link.
+2. We extracted only GBM tumour types using the [GBM Log File](https://github.com/amin20/GBM_WSSM/blob/master/GBM_Logs.xlsx) and [GBM Finder Code](https://github.com/amin20/GBM_WSSM/blob/master/TCGA/Codes/GBM_SVS_Finder.py). GBM images (.SVS format) are accessible via the [link](https://1drv.ms/u/s!AvQTr_2MktoO3XoyZm-9144H5fuX?e=UnY5Q3).
 
-3. All GBM tumours were visually checked by a pathologist and whole slide images (WSIs) were extracted for each GBM. They are acceible via the [link].
+3. All GBM tumours were visually checked by a pathologist and whole slide images (WSIs) were extracted for each GBM. They are acceible via the [link](https://1drv.ms/u/s!AvQTr_2MktoO5j5TIPctJeW7TsQJ?e=sgrKRH).
 
-4. Resized form (1024x1024) of the GBM WSIs are available in this [link].  
+4. Resized form (1024x1024) of the GBM WSIs are available in this [link](https://1drv.ms/u/s!AvQTr_2MktoOwEuX8V6a42tN1kzU?e=vkJNcw).  
 
-5. Corresponding produced masks (segmented masks) by applying GBM_WSSM on GBM WSIs are accessible in the [link]. 
+5. Corresponding produced masks (semantically segmented images) by applying GBM_WSSM on GBM WSIs are accessible in the [link](https://1drv.ms/u/s!AvQTr_2MktoOsjP3AdM3bwBuiAX9?e=0WTNZf). 
 
-6. We applyed the [code] to quantify regions in segmented masks obtained from previous step. The quantified values are located [here].
+6. This [code](https://github.com/amin20/GBM_WSSM/blob/master/TCGA/Codes/Compute_Average_Pixel_Values_Per_Patient.py) has been used to quantify regions in the segmented masks obtained from previous step. The quantified values are accessible [here](https://1drv.ms/x/s!AvQTr_2MktoOsX-YKgtq6K1PSUK7?e=sFfmPR).
 
 # -----------------------------------------------
 
