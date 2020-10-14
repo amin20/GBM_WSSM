@@ -20,7 +20,7 @@
 
 # Steps to reproduce the results of the paper
 
-1. Download the optimum weights of "[GBM_WSSM](https://github.com/amin20/GBM_WSSM)" trained on IVY-GAP dataset from the link "[GBM_WSSM.h5](https://1drv.ms/u/s!AvQTr_2MktoOgQT_ZMbotiquQW0L?e=ehFJah)" and place it in its appropriate address in the file "[GBM_WSSM_Prediction.py](https://github.com/amin20/GBM_WSSM/tree/master/Codes)".
+1. Download the optimum weights of "[GBM_WSSM](https://github.com/amin20/GBM_WSSM)" trained on IVY-GAP dataset from the link "[GBM_WSSM.h5](https://1drv.ms/u/s!AvQTr_2MktoOgQT_ZMbotiquQW0L?e=ehFJah)" and place it in its appropriate address in the code "[GBM_WSSM_Prediction.py](https://github.com/amin20/GBM_WSSM/blob/master/Codes/1_GBM_WSSM_Prediction.py)".
 
 Arguments:
 
@@ -46,7 +46,7 @@ Arguments:
 
 # -----------------------------------------------
 
-2. Download GBM test images from this [link](https://github.com/amin20/GBM_WSSM/tree/master/GBM_Test_Images) or use your own GBM images. For pre-processing of your images, please refer to the original article. Then, run the file "[GBM_WSSM_Prediction.py](https://github.com/amin20/GBM_WSSM/tree/master/Codes)". you can compare the results (predicted masks) with the original ground truth, check this [link](https://github.com/amin20/GBM_WSSM/tree/master/GBM_Test_Ground_Truth).
+2. Download GBM test images from this [link](https://github.com/amin20/GBM_WSSM/tree/master/GBM_Test_Images) or use your own GBM images. For pre-processing of your images, please refer to the original article. Then, run the code "[GBM_WSSM_Prediction.py](https://github.com/amin20/GBM_WSSM/blob/master/Codes/1_GBM_WSSM_Prediction.py)". you can compare the results (predicted masks) with the original ground truth, check this [link](https://github.com/amin20/GBM_WSSM/tree/master/GBM_Test_Ground_Truth).
 
 3. If you want to train the model from scratch, download raw images and corressponding masks from the link . Also, you can save your time and train the model by using training and validating numpy arrays we prepared. For both ways, first download the images or arrays from and put them in the [main_code](https://github.com/amin20/GBM_WSSM/blob/master/Codes/0_main.py).
 
