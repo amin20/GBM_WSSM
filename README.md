@@ -20,7 +20,7 @@
 
 # Steps to reproduce the results of the paper
 
-1. Download the optimum weights of "[GBM_WSSM](https://github.com/amin20/GBM_WSSM)" trained on IVY-GAP dataset from the link "[GBM_WSSM.h5](https://1drv.ms/u/s!AvQTr_2MktoOgQT_ZMbotiquQW0L?e=ehFJah)" and place it in its appropriate address in the file "[GBM_WSSM_Prediction.py](https://github.com/amin20/GBM_WSSM/tree/master/Codes/GBM_WSSM_Prediction.py)".
+1. Download the optimum weights of "[GBM_WSSM](https://github.com/amin20/GBM_WSSM)" trained on IVY-GAP dataset from the link "[GBM_WSSM.h5](https://1drv.ms/u/s!AvQTr_2MktoOgQT_ZMbotiquQW0L?e=ehFJah)" and place it in its appropriate address in the file "[GBM_WSSM_Prediction.py](https://github.com/amin20/GBM_WSSM/tree/master/Codes)".
 
 Arguments:
 
