@@ -120,4 +120,4 @@ Arguments:
 
 # Notes
 
-DCNN Network Architecture inspired by the [Article](https://arxiv.org/abs/1611.09326) 
+Deep Convolutional Neural Network Architecture for GBM Semantic Segmentation is inspired by the [Article](https://arxiv.org/abs/1611.09326) 
