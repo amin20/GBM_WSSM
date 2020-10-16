@@ -48,7 +48,7 @@ Arguments:
 
 2. Download GBM test images from this [link](https://github.com/amin20/GBM_WSSM/tree/master/GBM_Test_Images) or use your own GBM images. For pre-processing of your images, please refer to the original article. Then, run the code "[GBM_WSSM_Prediction.py](https://github.com/amin20/GBM_WSSM/blob/master/Codes/1_GBM_WSSM_Prediction.py)". you can compare the results (predicted masks) with the original ground truth, check this [link](https://github.com/amin20/GBM_WSSM/tree/master/GBM_Test_Ground_Truth).
 
-3. If you want to train the model from scratch, download raw images and corressponding masks from the link . Also, you can save your time and train the model by using training and validating [numpy arrays](https://1drv.ms/u/s!AvQTr_2MktoOgSDE2PFWtiEo-XMk?e=3tiV1k) we prepared. For both ways, first download the images or arrays from and put them in the [main_code](https://github.com/amin20/GBM_WSSM/blob/master/Codes/0_main.py).
+3. If you want to train the model from scratch, download raw images and corressponding masks from the [link](https://1drv.ms/u/s!AvQTr_2MktoOgSNAeWoGMa-3ucLN?e=veB0g2) . Also, you can save your time and train the model by using training and validating [numpy arrays](https://1drv.ms/u/s!AvQTr_2MktoOgSDE2PFWtiEo-XMk?e=3tiV1k) we prepared. For both ways, first download the images or arrays from and put them in the [main_code](https://github.com/amin20/GBM_WSSM/blob/master/Codes/0_main.py).
 
 Arguments:
 
