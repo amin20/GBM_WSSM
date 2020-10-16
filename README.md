@@ -108,7 +108,7 @@ Arguments:
 
 2. We extracted only GBM tumour types using the [GBM Log File](https://github.com/amin20/GBM_WSSM/blob/master/GBM_Logs.xlsx) and [GBM Finder Code](https://github.com/amin20/GBM_WSSM/blob/master/TCGA/Codes/GBM_SVS_Finder.py). GBM images (.SVS format) are accessible via the [link](https://1drv.ms/u/s!AvQTr_2MktoO3XoyZm-9144H5fuX?e=UnY5Q3).
 
-3. All GBM tumours were visually checked by a pathologist and whole slide images (WSIs) were extracted for each GBM. They are acceible via the [link](https://1drv.ms/u/s!AvQTr_2MktoO5j5TIPctJeW7TsQJ?e=sgrKRH).
+3. All the GBM tumours were visually checked by a pathologist and whole slide images (WSIs) were extracted for each GBM. They are accessible via the [link](https://1drv.ms/u/s!AvQTr_2MktoO5j5TIPctJeW7TsQJ?e=sgrKRH).
 
 4. Resized form (1024x1024) of the GBM WSIs are available in this [link](https://1drv.ms/u/s!AvQTr_2MktoOwEuX8V6a42tN1kzU?e=vkJNcw).  
 
