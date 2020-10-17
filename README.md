@@ -118,7 +118,7 @@ Arguments:
 
 5. Corresponding produced masks (semantically segmented images) by applying GBM_WSSM on GBM WSIs are accessible in the [link](https://1drv.ms/u/s!AvQTr_2MktoOsjP3AdM3bwBuiAX9?e=0WTNZf). 
 
-6. This [code](https://github.com/amin20/GBM_WSSM/blob/master/TCGA/Codes/Compute_Average_Pixel_Values_Per_Patient.py) has been used to quantify regions in the segmented masks obtained from previous step. The quantified values are accessible [here](https://1drv.ms/x/s!AvQTr_2MktoOsX-YKgtq6K1PSUK7?e=sFfmPR).
+6. This [code](https://github.com/amin20/GBM_WSSM/blob/master/TCGA/Codes/Compute_Average_Pixel_Values_Per_Patient.py) has been used to quantify regions in the segmented masks obtained from the previous step. The quantified values are accessible [here](https://1drv.ms/x/s!AvQTr_2MktoOsX-YKgtq6K1PSUK7?e=sFfmPR).
 
 # -----------------------------------------------
 
