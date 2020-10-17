@@ -20,7 +20,9 @@
 
 # Steps to reproduce the results of the paper
 
-1. Download the optimum weights of "[GBM_WSSM](https://github.com/amin20/GBM_WSSM)" trained on IVY-GAP dataset from the link "[GBM_WSSM.h5](https://1drv.ms/u/s!AvQTr_2MktoOgQT_ZMbotiquQW0L?e=ehFJah)" and place it in its appropriate address in the code "[GBM_WSSM_Prediction.py](https://github.com/amin20/GBM_WSSM/blob/master/Codes/1_GBM_WSSM_Prediction.py)".
+1. Download the optimum weights of "[GBM_WSSM](https://github.com/amin20/GBM_WSSM)" trained on IVY-GAP dataset from the link "[GBM_WSSM.h5](https://1drv.ms/u/s!AvQTr_2MktoOgQT_ZMbotiquQW0L?e=ehFJah)" and place it in its appropriate part in the code "[GBM_WSSM_Prediction.py](https://github.com/amin20/GBM_WSSM/blob/master/Codes/1_GBM_WSSM_Prediction.py)".
+
+Note: Color codes for eight different regions (IT, LE, CT, CTmvp, CTne, CTpnz, CTpan, and Background) are located in the [Mask_Labels.txt](https://github.com/amin20/GBM_WSSM/blob/master/Codes/Mask_Labels.txt). 
 
 Arguments:
 
